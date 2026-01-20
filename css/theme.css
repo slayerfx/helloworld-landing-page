@@ -1,0 +1,293 @@
+/* *****************************************************************
+TOOLS
+***************************************************************** */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*******************************************************************************
+GENERALITES
+*******************************************************************************/
+
+/* Le corps du document */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Lato";
+  color: #333;
+  background-color: #ffffff;
+}
+
+/* Le titre principal */
+h1 {
+  margin-top: 0;
+  border-bottom: 1px solid #4e9cbe;
+  font-size: 4.5rem;
+  color: #007eb3;
+  text-align: center;
+}
+
+/* Le titre de second niveau */
+h2 {
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+/* Le titre de troisième niveau */
+h3 {
+  font-size: 2.5rem;
+}
+
+/* Les liens */
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/*******************************************************************************
+LAYOUT
+*******************************************************************************/
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  background-color: #ffffff;
+  color: #999;
+  padding: 1em;
+}
+
+section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+nav {
+  background-color: #007eb3;
+  padding: 0.5rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 9rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Carnet de voyage */
+
+.main-content {
+  margin: auto;
+}
+
+.travel-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2em;
+}
+
+.travel-card2 {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid grey;
+  padding-bottom: 2em;
+}
+
+.image-ville {
+  width: 49%;
+}
+.travel-card .image-ville {
+  margin-right: 2rem;
+}
+
+.travel-card2 .image-ville {
+  margin-left: 2rem;
+}
+
+.travel-content {
+  flex-grow: 1;
+}
+
+button {
+  padding: 1em;
+  background-color: #007eb3;
+  border: none;
+  color: white;
+  border-radius: 0.6em;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+/* à propos */
+
+.présentation {
+  margin-top: 2em;
+  background-image: url("../ressources/fond.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 5em;
+  width: 100%;
+}
+
+.présentation-info {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  width: 50%;
+  margin-left: 5%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Contact */
+
+.contact ul {
+  padding: 0;
+}
+
+.contact ul a {
+  text-decoration: none;
+}
+
+.contact ul li {
+  list-style: none;
+  font-style: italic;
+}
+
+.contact ul li a {
+  color: #4e9cbe;
+}
+
+/* Formulaire */
+
+.form {
+  background-image: url(../ressources/map-image.png);
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 55%;
+}
+
+.field {
+  padding: 1em 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  padding: 0.8em 1em;
+}
+
+textarea {
+  min-height: 15em;
+  resize: vertical;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.submit-button {
+  background-color: #1da1f2;
+  color: white;
+  border-radius: 0.5em;
+  padding: 1em 2em;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: #dd5735;
+}
+
+/* Logos */
+
+.fa-square-facebook {
+  color: #4267b2;
+}
+
+.fa-square-twitter {
+  color: #1da1f2;
+}
+.fa-pinterest {
+  color: #bd081c;
+}
+.fa-square-instagram {
+  color: #8948c1;
+}
+
+/* Le pied de page */
+
+.footer {
+  text-align: center;
+  background-color: #4e9cbe;
+  padding: 2em;
+  color: white;
+}
