@@ -18,4 +18,4 @@ Ce projet est une landing page immersive réalisée dans le cadre de ma formatio
 - **Démo en ligne :** [https://slayerfx.github.io/helloworld-landing-page/](https://slayerfx.github.io/helloworld-landing-page/)
 
 ---
-*Réalisé avec rigueur pour valider les compétences du module Intégration - 2026*
+*Réalisé par **slayerfx** dans le cadre du cursus 3W Academy - 2026*
