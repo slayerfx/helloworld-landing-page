@@ -1,6 +1,6 @@
 # HelloWorld Landing Page
 
-Page sur le theme du voyage avec un design colore. Fait pendant ma formation a la 3W Academy.
+Page sur le theme du voyage avec un design coloré. Fait pendant ma formation à la 3W Academy.
 
 ## Technologies
 
